@@ -1,0 +1,42 @@
+*{
+    font-family: 'Vina Sans', sans-serif;
+}
+.calculator{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.structure input{
+    height: 12vh;
+    width: 200px;
+}
+.buttons button{
+    width: 63px;
+    height: 66px;
+    background-color: transparent;
+    color: black;
+    border-radius: 8px;
+    margin: 1px;
+    border: 1px solid;
+
+}
+.buttons{
+    padding: 16px;
+    width: 276px;
+}
+#screen{
+    width: 86%;
+    height: 12vh;
+    font-size: x-large;
+    border: 1px solid;
+    text-align: right;
+    padding: 7px;
+    margin: 14px;
+}
+.operator button{
+    border: 2px solid;
+}
+.structure{
+    border: 1px solid;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styl.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="calculator">
+            <div class="structure">
+                <div id="screen"></div>
+                <div class="buttons">
+                    <button style="border: 2px solid;" onclick="scn.innerHTML =''">AC</button>
+                    <button style="border: 2px solid;" onclick="scn.innerHTML = scn.innerHTML.toString().slice(0,-1)">C</button>
+                    <button style="border: 2px solid;" onclick="scn.innerHTML+='%'">%</button>
+                    <button style="border: 2px solid;" onclick="scn.innerHTML+='/'">/</button>
+                    <button style="font-family: sans-serif;" onclick="scn.innerHTML+='1'">1</button>
+                    <button style="font-family: sans-serif;" onclick="scn.innerHTML+='2'">2</button>
+                    <button style="font-family: sans-serif;" onclick="scn.innerHTML+='3'">3</button>
+                    <button style="border: 2px solid;" onclick="scn.innerHTML+='+'">+</button>
+                    <button style="font-family: sans-serif;" onclick="scn.innerHTML+='4'">4</button>
+                    <button style="font-family: sans-serif;" onclick="scn.innerHTML+='5'">5</button>
+                    <button style="font-family: sans-serif;" onclick="scn.innerHTML+='6'">6</button>
+                    <button style="border: 2px solid;" onclick="scn.innerHTML+='-'">-</button>
+                    <button style="font-family: sans-serif;" onclick="scn.innerHTML+='7'">7</button>
+                    <button style="font-family: sans-serif;" onclick="scn.innerHTML+='8'">8</button>
+                    <button style="font-family: sans-serif;" onclick="scn.innerHTML+='9'">9</button>
+                    <button style="border: 2px solid;" onclick="scn.innerHTML+='*'">*</button>
+                    <button style="font-family: sans-serif;" onclick="scn.innerHTML+='0'">0</button>
+                    <button style="font-family: sans-serif;" onclick="scn.innerHTML+='.'">.</button>
+                    <button  style="width: 133px; border: 2px solid;" onclick="scn.innerHTML=eval(scn.innerHTML)">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
